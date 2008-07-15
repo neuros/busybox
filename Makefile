@@ -9,7 +9,7 @@
 # - cleanall: if you do a rebuild, this will restore the pristine env as before you did it by removing dists cache
 #
 # App: busybox shell
-# Version: 1.10.2
+# Version: 1.11.1
 # Extra tools for build: wget dialog ncurses ncurses-dev
 #########################################################################################
 
@@ -17,7 +17,7 @@ ifndef PRJROOT
     $(error You must first source the BSP environment: "source neuros-env")
 endif
 
-TVER=1.10.2
+TVER=1.11.1
 TDIR=_build/busybox-$(TVER)
 TARCHIVE=busybox-$(TVER).tar.bz2
 TURL=http://busybox.net/downloads/$(TARCHIVE)
