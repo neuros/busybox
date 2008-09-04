@@ -17,7 +17,7 @@ ifndef PRJROOT
     $(error You must first source the BSP environment: "source neuros-env")
 endif
 
-TVER=1.11.1
+TVER=1.11.2
 TDIR=_build/busybox-$(TVER)
 TARCHIVE=busybox-$(TVER).tar.bz2
 TURL=http://busybox.net/downloads/$(TARCHIVE)
